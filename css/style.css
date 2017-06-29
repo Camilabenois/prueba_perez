@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  padding-top: 120px;
+}
+header.inicio{
+  background-image: url('../images/asperger.jpg');
+
+}
+.grey{
+background: #f1f1f1;
+border: none;
+height: 120px;
+color: snow;
+}
+
+.navbar-default .navbar-nav{
+  padding-top: 40px;
+  margin-right: 100px;
+
+}
+
+
+
+.navbar-default .navbar-nav>li>a{
+  color: #337ab7;
+  background: #f1f1f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+opacity: 0.7;
+background:#f1f1f1;
+}
+h1.center{
+  text-align: center;
+  color: snow;
+  word-spacing: 50px;
+  font-family:'allerbold';
+  font-size: 8rem;
+  line-height: 10rem;
+  text-shadow: 2px 2px #ff0000;
+
+}
+.pad{
+  margin-left: 25px;
+}
+.pad:hover{
+  margin-left: 25px;
+  opacity: 0.8;
+}
+.middle{
+margin-top: 120px;
+margin-left: 130px;
+}
+
+footer{
+  background-color: dimgray;
+  padding: 50px;
+}
+
+footer p{
+  color: white;
+}
+p.white{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: rgba(22, 100, 22, 0.7);
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 80px;
+}
+.logo{
+  max-width: 100%;
+  height: 100px;
+  margin:  auto;
+
+}
+div.col-md-6.color{
+  background: #fff278; 
+  
+}
+div.col-md-6.color2{
+  background: lightcoral; 
+  
+}
+div.col-md-6.color3{
+  background: lightseagreen; 
+  
+}
+.circle{
+  width: 100%;
+  border-radius: 100%;
+  padding: 50px;
+}
+
+div.col-md-2.final{
+  background: rgba(54,108,245,1); 
+  height: 360px; 
+}
+.right{
+    width: 20%;
+    margin-left: 5px;
+  }
+  .right:hover{
+    opacity: 0.5;
+  }
